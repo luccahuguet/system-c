@@ -6,7 +6,7 @@
 - `sudo docker run -it systemc /bin/bash` -- will start an interactive session
 - Try to compile and run the example:
 - `cd systemc-helloworld`
-- `chmod +x compile.sh && ./compile.sh`
-- `./main.sh`
+- `chmod +x compile.sh && ./compile.sh helloworld.cpp`
+- `./main`
 
 Verify that the program prints "Hello world!".
